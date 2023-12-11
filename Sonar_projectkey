@@ -1,0 +1,6 @@
+project-token:sqp_fc6ee7cb71b56d67cd032c10ff56d2e4b797b463
+
+mvn clean verify sonar:sonar \
+  -Dsonar.projectKey=Java_spring \
+  -Dsonar.host.url=http://34.125.56.171:9000 \
+  -Dsonar.login=sqp_fc6ee7cb71b56d67cd032c10ff56d2e4b797b463
